@@ -14,6 +14,7 @@ function preload(){
 function setup() {
 
    database=firebase.database();
+   console.log(database);
 
   createCanvas(1500,700);
 
